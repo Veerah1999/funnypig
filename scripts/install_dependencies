@@ -1,3 +1,5 @@
 #!/bin/bash
-yum install -y httpd
+source /root/.bash_profile
+cd /var/www/html/admin_panel_backend
+npm install
 
